@@ -1,0 +1,22 @@
+{
+  "name": "clean-architecture-demo",
+  "version": "1.0.0",
+  "description": "Clean Architecture demo for conference talk — Node.js 24 + TypeScript",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx --experimental-sqlite src/main.ts",
+    "start": "node --experimental-sqlite --import tsx src/main.ts",
+    "test": "tsx --experimental-sqlite --test tests/{unit,integration,e2e}/**/*.test.ts tests/{unit,integration,e2e}/*.test.ts"
+  },
+  "dependencies": {
+    "class-transformer": "0.5.1",
+    "class-validator": "0.14.1",
+    "inversify": "7.0.0",
+    "reflect-metadata": "0.2.2"
+  },
+  "devDependencies": {
+    "@types/node": "24.10.12",
+    "tsx": "4.21.0",
+    "typescript": "5.7.3"
+  }
+}
