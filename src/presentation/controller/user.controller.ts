@@ -1,6 +1,6 @@
 import { inject, injectable } from 'inversify';
 
-import { TYPES } from '../../infrastructure/ioc/types.js';
+import { TYPES } from '../../shared/types.js';
 import { AbstractController } from '../../framework/controller.abstract.js';
 import { RegisterUserDto } from '../dto/register-user.dto.js';
 import { LoginUserDto } from '../dto/login-user.dto.js';

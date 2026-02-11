@@ -1,6 +1,6 @@
 import { inject, injectable } from 'inversify';
 
-import { TYPES } from '../../infrastructure/ioc/types.js';
+import { TYPES } from '../../shared/types.js';
 import type { RegisterUserRequest } from '../request/register-user.request.js';
 import { UserResponse } from '../response/user.response.js';
 import type { UserService } from '../../domain/service/user.service.js';

@@ -1,6 +1,6 @@
 import { inject, injectable } from 'inversify';
 
-import { TYPES } from '../../infrastructure/ioc/types.js';
+import { TYPES } from '../../shared/types.js';
 import type { User } from '../entity/user.entity.js';
 import type { IUserRepository } from '../repository/user-repository.interface.js';
 import type { IPasswordHasher } from './password-hasher.interface.js';

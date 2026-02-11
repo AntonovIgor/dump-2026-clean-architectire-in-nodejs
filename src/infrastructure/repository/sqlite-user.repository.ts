@@ -1,6 +1,6 @@
 import { inject, injectable } from 'inversify';
 
-import { TYPES } from '../ioc/types.js';
+import { TYPES } from '../../shared/types.js';
 import { User } from '../../domain/entity/user.entity.js';
 import type { IUserRepository } from '../../domain/repository/user-repository.interface.js';
 import type { SqliteDatabase } from '../database/sqlite.database.js';
